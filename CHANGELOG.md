@@ -1,5 +1,35 @@
 # 更新紀錄 / Changelog
 
+## Ver. 0.164 — 2026-11-05
+
+### 繁體中文
+
+- 新增可在標題畫面開啟的實驗性事件功能，預設關閉。「觀測系統錯誤」會先發出警告，再以警示帶遮蔽部分視野，搭配事件音效與音樂；暫停時事件進度停止。
+- 調整事件音樂：危險音樂在升級選單中持續播放，事件結束後淡回一般背景音樂。
+- 多 Boss 場面優先生成目前場上沒有的種類，減少同種 Boss 重複出現。
+- 調整巨獸核心「破軍巨足」：持續加速前原地蓄力 0.8 秒且不消耗 EN，加速轉向速度降低 30%；不同等級有各自的極速與加速時間。
+- 「奈米修復」改為每秒額外回復「卡片等級 × 0.5 ＋ 最大裝甲的 1%」，並隨最大裝甲變動同步調整；移除取得卡片時立即修復 15 裝甲的效果。
+- 六張機體防禦卡統一使用青綠色，涵蓋升級選項、靶場卡片、已持有卡與圖鑑；未解鎖卡仍維持灰色。
+- 「火箭跳」與「質量效應」改為互斥，靶場套用升級時也會處理衝突。
+- 調整「龍息」為每 0.60 秒噴出 80 顆火焰粒子，每顆基礎傷害 3；前端火焰飛得更遠、存在更久，靠近機體的火焰先消散。
+- 改善持續噴火音效：起始音只播放一次，持續燃燒段平順循環，停止射擊時短暫淡出。
+- 補上電弧武器射擊音效，優化地形碰撞與自動索敵，調整核心獎勵畫面動畫。
+- 改善敵人與 Boss 的霜凍表面效果，並同步更新英文介面、卡牌說明與中英文圖鑑。
+
+### English
+
+- Added an opt-in experimental events toggle on the title screen, disabled by default. Observation System Error gives a warning before caution tape obscures parts of the view, with dedicated event audio and music. Event progress freezes while paused.
+- Updated event music: danger music continues during upgrade selection and fades back to the regular soundtrack after the event.
+- Multi-boss encounters now prefer types not already present, reducing duplicate bosses.
+- Updated Titan Treads: sustained boost starts with a stationary 0.8-second charge that consumes no EN, and boost turning speed is reduced by 30%. Each rank has its own top speed and acceleration time.
+- Nano Repair now provides additional armor regeneration of rank × 0.5 plus 1% of maximum armor per second, scaling with changes to maximum armor. Removed the instant 15 armor repair on pickup.
+- Applied a teal color to all six defensive chassis cards across upgrade choices, the firing range, owned cards and codex pages. Locked cards remain gray.
+- Made Rocket Jump and Mass Effect mutually exclusive, including when applying upgrades in the firing range.
+- Updated Dragon's Breath to fire 80 flame particles every 0.60 seconds, each dealing 3 base damage. Leading flames travel farther and last longer, while flames near the ship disappear first.
+- Improved sustained flamethrower audio: the ignition plays once, the burning section loops smoothly, and releasing fire produces a short fade-out.
+- Added the Arc Emitter firing sound, optimized terrain collision and automatic targeting, and adjusted the core reward animation.
+- Improved frost surface effects on enemies and bosses, and updated English interface text, card descriptions and both codex languages.
+
 ## Ver. 0.163
 
 ### 繁體中文

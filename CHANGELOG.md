@@ -1,5 +1,21 @@
 # 更新紀錄 / Changelog
 
+## Ver. 0.172 — 2026-11-11
+
+### 繁體中文
+
+- 火箭飛彈在用光彈藥後會自動開始裝填；仍可按右鍵（手柄 Y）提前裝填。
+- 降低「全彈發射」飛彈的追蹤性能；目標偏離飛彈前方超過 90 度時，飛彈會放棄該目標繼續前進，不再 180 度大轉彎。
+- 兩個 EX 武裝欄位現在可以裝備同一種武裝，各自計算次數與冷卻。
+- 「創世紀」炮擊落地後的 10 秒內不會生成新的一般敵人與 Boss（Boss 計時同步暫停），避免白光散去後馬上湧入大量敵人。
+
+### English
+
+- Rocket Missiles now start reloading automatically when the ammo runs out; right click (Y on a gamepad) still reloads early.
+- Full Salvo rockets home in less sharply. A rocket drops any target more than 90 degrees off its nose and flies on, so it no longer makes U-turns.
+- Both EX armament slots can now hold the same armament, with separate charges and cooldowns.
+- No new regular enemies or bosses spawn for 10 seconds after the Genesis strike lands (the boss timer pauses too), so a new crowd no longer floods in as the white flash clears.
+
 ## Ver. 0.171 — 2026-11-11
 
 ### 繁體中文

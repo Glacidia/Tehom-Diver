@@ -28,13 +28,13 @@ A rougelite Top-Down Shooter game  (VIBE CODING)
 
 ---
 
-目前版本：**Ver. 0.164**。
+目前版本：**Ver. 0.17**。
 
 ## 下載與開始遊玩
 
 1. 開啟此倉庫的 **Releases**，選擇要下載的版本。
 
-2. 在 **Assets** 下載 `Tehom-Diver-Player-Ver.0.164.zip`。GitHub 自動產生的 `Source code` 壓縮檔不是玩家包。
+2. 在 **Assets** 下載 `Tehom-Diver-Player-Ver.0.17.zip`。GitHub 自動產生的 `Source code` 壓縮檔不是玩家包。
 
 3. 將 ZIP 完整解壓到一個資料夾；不要直接從壓縮檔內開啟遊戲。
 
@@ -51,6 +51,8 @@ A rougelite Top-Down Shooter game  (VIBE CODING)
 | 切換自動射擊 | F |
 | 升級 | C 或點擊「可升級」 |
 | 加速 | 空白鍵 |
+| EX 武裝 | Q / E |
+| 手柄 | 支援 Xbox／PlayStation 手柄（按鍵見遊玩說明） |
 | 暫停 | Esc |
 
 更多介面及音量設定請參考包內的 `Tehom-Diver-遊玩說明.txt`。

@@ -1,5 +1,43 @@
 # 更新紀錄 / Changelog
 
+## Ver. 0.171 — 2026-11-11
+
+### 繁體中文
+
+- 新增主武器「火箭飛彈」，並改為蜂鳥的預設主武器：每秒 1.6 發，彈藥 8 發，按右鍵（手柄 Y）裝填 3 秒，裝填期間無法射擊。火箭射出後逐漸加速並帶有微幅追蹤，拖曳白色煙霧，接觸敵人或地形後爆炸，對半徑 120 內的敵人造成 100 爆炸傷害。可搭配高能核心、超頻核心、分散射擊、彈體擴展、霜凍彈藥與精密校準。
+- 新增火箭飛彈專屬卡片「全彈發射」：彈藥 +100%、每發基礎傷害 -25%；每次開火向機體前方連續彈射 8 發飛彈，短暫滯空後追蹤目標飛去，射擊間隔 1.6 秒。
+- 火箭飛彈使用武器狀態欄顯示彈藥：實心飛彈為已裝填，空心飛彈為空彈槽；每排最多 8 發，超過時往上增加一排，裝填時依序填滿。
+- 高能核心提高蜂群飛彈與火力覆蓋的傷害；超頻核心縮短所有 EX 武裝的冷卻時間；分散射擊每級讓蜂群飛彈多 2 枚、火力覆蓋多 1 個目標。加成依目前主武器的卡片等級計算。
+- 超頻修復改為每秒回復最大裝甲的 10%。
+- 火力覆蓋的爆炸直徑提高到 210，標記會以每秒最多 240 的速度追蹤目標。
+- 立體機動發動期間有 75% 機率閃避敵方子彈（光束與雷射除外），特效改為沿機體移動軌跡留下快速消散的半透明殘影。
+- 蜂群飛彈的煙霧拖尾消散得更快。
+- 蜂群飛彈、火力覆蓋、EMP、電子領域與立體機動加入專屬音效。
+- 標題畫面的 EX 武裝欄位改為點擊後展開選擇面板。
+- 「熾焰過載」的大型光束傷害改為「基礎傷害 × 4 ×（1 + 一般光束數量 × 0.75）」，並持續到 120 熱量為止。
+- 移除卡片「相位餘護」、「動能迴路」與「爆發餘勢」。
+- Argor-717 的履帶被擊中時會閃紅，艦身被擊中時會噴出金屬火花。
+- 敵人圖鑑中的 Argor-717 移到獨立的「EX Boss」分類。
+- 同步更新英文介面、說明與中英文圖鑑。
+
+### English
+
+- Added the Rocket Missiles main weapon, now the Hummingbird's default: 1.6 shots per second and 8 rounds of ammo. Right click (Y on a gamepad) reloads over 3 seconds, with no firing meanwhile. Rockets accelerate after launch with slight homing, trail white smoke and explode on enemies or terrain, dealing 100 explosive damage within a radius of 120. Works with Power Core, Overclock Core, Multishot, Projectile Expansion, Frost Ammo and Precision Calibration.
+- Added Full Salvo, a Rocket Missiles card: ammo +100% and base damage per rocket -25%. Each trigger ejects 8 rockets in quick succession in front of the ship; they hover briefly, then home in on targets. Salvos are 1.6 seconds apart.
+- Rocket Missiles show their ammo in the weapon status bar: filled rockets are loaded, hollow ones are empty slots. Each row holds up to 8, extra rows stack upward, and reloading fills them in order.
+- Power Core raises Swarm Missiles and Fire Support damage, Overclock Core shortens every EX armament cooldown, and each Multishot rank adds 2 swarm missiles and 1 Fire Support target. The bonuses use the current weapon's card ranks.
+- Overclock Repair now restores 10% of maximum armor per second.
+- Fire Support blasts are now 210 across, and the marks follow their targets at up to 240 per second.
+- 3D Maneuver now dodges 75% of enemy rounds while active (beams and lasers excepted), and its effect is now fast-fading translucent afterimages along the ship's path.
+- Swarm Missile smoke trails fade faster.
+- Swarm Missiles, Fire Support, EMP, Electro Field and 3D Maneuver have their own sound effects.
+- The title-screen EX armament slots now open a selection panel when clicked.
+- The Blazing Overload large beam now deals base damage × 4 × (1 + normal beam count × 0.75) and lasts until heat reaches 120.
+- Removed the Phase Guard, Kinetic Circuit and Burst Momentum cards.
+- Argor-717's tracks flash red when hit, and its hull throws metal sparks when struck.
+- Argor-717 now has its own "EX Boss" section in the enemy codex.
+- Updated the English interface, guide and bilingual codex pages.
+
 ## Ver. 0.17 — 2026-11-10
 
 ### 繁體中文

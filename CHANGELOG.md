@@ -1,5 +1,41 @@
 # 更新紀錄 / Changelog
 
+## Ver. 0.17 — 2026-11-10
+
+### 繁體中文
+
+- 新增 EX 武裝系統：開局前在標題畫面的機體下方選擇最多兩種 EX 武裝，不綁定機體；以 Q／E（手柄 RT／LT）發動。切換機體時若欄位 1 為空，會自動帶入該機體的代表武裝。
+- 可選的 EX 武裝共六種：超頻修復（回復裝甲並提升射速）、電子領域（展開法陣，陣內提升射速並減傷）、立體機動（補滿 EN，短時間免除碰撞傷害）、蜂群飛彈（兩側齊射追蹤微型飛彈）、EMP（電磁脈衝癱瘓敵人並消除敵彈）、火力覆蓋（標記最近 5 名敵人後空中砲擊）。
+- 擊敗 Argor-717 後取得當局限定的 EX 武裝「創世紀」，可選擇裝備、替換或捨棄：從地圖最遠的斜對角發射電磁砲，擊殺 Boss 以外的所有敵人並重創 Boss。
+- EX 武裝 HUD 顯示冷卻、剩餘次數與發動狀態，可在設定中調整位置、大小、透明度與顯示；空欄位以裝甲板圖示呈現。
+- 新增實驗性事件「6:14」：11 架菁英敵人「使徒」包圍玩家繞行射擊，事件期間暫停一般敵潮與 Boss 計時。使徒會繞過地形追擊，移動帶有慣性，玩家突然加速時可短暫甩開。
+- 新增事件「Argor Arrival」與 EX Boss「Argor-717」：清除「6:14」後接續發生。開場有警告、電磁砲轟擊與陸行艦進場演出；Argor-717 沿地圖邊緣巡行，擁有雙管機砲、雷射砲台、貫穿地形的主砲、使徒出擊、垂直飛彈與狂暴蒸氣排放等兩階段攻擊。擊毀後玩家提升 4 級，並在之後 10 秒內不生成新敵人。
+- 新增手柄操作（Xbox 配置，PlayStation 手柄自動切換按鍵圖示）：左搖桿移動、右搖桿瞄準、RB 射擊、LB 加速、Y 砲彈、RT／LT 發動 EX 武裝、A 升級、X 自動射擊；選單可用十字鍵或左搖桿操作。
+- 新增介面音效。
+- 調整巨噬蠕蟲 Boss：鑽地冷卻 5 秒、每次鑽地都有音效，前兩次破土後朝玩家躍進。玩家核心「饕餮利爪」的破土衝擊波半徑由 120 提高到 180。
+- 彩蛋卡「Spin Me Round」改為按 F 切換高速旋轉並持續開火。
+- 升級選單中可按 ESC 暫停、按 ~ 開關開發人員工具。
+- 移除機體圖示 HUD 與畫面最下方的說明文字；整理靶場工具與開發人員工具的功能分組。
+- 修正使用靶場或開發人員工具列後鍵盤失效；移除進入靶場與守望者觸手盡毀時的紅字提示。
+- 同步更新英文介面、說明與中英文圖鑑。
+
+### English
+
+- Added EX Armaments: before a run, choose up to two EX armaments below the ship on the title screen. They are not tied to a ship and are triggered with Q / E (RT / LT on a gamepad). Switching ships fills an empty first slot with that ship's signature armament.
+- Six EX armaments are available: Overclock Repair (restores armor and raises fire rate), Electro Field (a circle that raises fire rate and reduces damage taken inside it), 3D Maneuver (refills EN and briefly removes collision damage), Swarm Missiles (homing micro-missiles from both sides), EMP (a pulse that disables enemies and destroys enemy rounds) and Fire Support (air strikes on the 5 nearest enemies).
+- Defeating Argor-717 awards Genesis, an EX armament for the current run that you can equip, swap in or discard: a railgun shot from the farthest map corner that kills every non-boss enemy and heavily damages bosses.
+- The EX armament HUD shows cooldowns, charges and active effects, and can be repositioned, resized, faded or hidden in settings. Empty slots show an armor plate.
+- Added the experimental event "6:14": 11 elite Apostles surround and circle the player while firing, and regular waves and the boss timer pause during the event. Apostles path around terrain and move with inertia, so a sudden boost can briefly shake them off.
+- Added the event "Argor Arrival" and the EX Boss Argor-717, which follows a cleared "6:14". It opens with warnings, a railgun strike and the landship's entrance. Argor-717 patrols the map edge with twin guns, laser turrets, a terrain-piercing main gun, Apostle sorties, vertical missiles and an enraged steam purge across two phases. Destroying it grants 4 levels, and no new enemies spawn for the next 10 seconds.
+- Added gamepad support (Xbox layout, with PlayStation glyphs detected automatically): left stick to move, right stick to aim, RB to fire, LB to boost, Y for cannon rounds, RT / LT for EX armaments, A to upgrade and X for auto-fire. Menus work with the D-pad or left stick.
+- Added interface sound effects.
+- Updated the Devourer Worm boss: 5-second burrow cooldown, a sound on every burrow, and a lunge toward the player after its first two surfacings. The player's Ravenous Claws core shockwave radius increased from 120 to 180.
+- The Spin Me Round easter-egg card now turns F into a high-speed spin with continuous fire.
+- ESC pauses and ~ toggles the developer tools from the upgrade picker.
+- Removed the ship-icon HUD and the footer text at the bottom of the screen, and regrouped the firing-range and developer toolbars by function.
+- Fixed the keyboard stopping working after using the firing-range or developer toolbar, and removed the red notices shown on entering the range and when all Watcher tentacles are destroyed.
+- Updated the English interface, guide and bilingual codex pages.
+
 ## Ver. 0.164 — 2026-11-05
 
 ### 繁體中文
